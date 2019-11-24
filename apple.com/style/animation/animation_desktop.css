@@ -1,0 +1,224 @@
+
+  .hide-list {
+    animation: ani-hide-list .4s .2s forwards;
+  }
+
+  @keyframes ani-hide-list {
+
+    0% {
+      visibility: visible;
+      opacity: 1;
+      transform: none;
+    }
+
+
+    100% {
+      opacity: 0;
+      animation-timing-function: cubic-bezier(0.2727, 0.0986, 0.8333, 1);
+      visibility: hidden;
+      transform: scale(0.7);
+    }
+
+  }
+
+  .item-nav-desktop.hide-list:nth-child(2) {
+    animation-delay: .28s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(3) {
+    animation-delay: .245s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(4) {
+    animation-delay: .21s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(5) {
+    animation-delay: .175s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(6) {
+    animation-delay: .14s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(7) {
+    animation-delay: .105s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(8) {
+    animation-delay: .07s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.hide-list:nth-child(9) {
+    animation-delay: .035s;
+    animation-fill-mode: both;
+  }
+
+
+
+  .search-show {
+    animation: show-search .5s ease-in-out .4s forwards;
+  }
+
+  .show-icon-close {
+    animation: show-search .5s ease-in-out .4s forwards;
+    /* visibility: visible; */
+  }
+
+  @keyframes show-search {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+
+  .search-form-slide {
+    animation: search-form-slide 1s 0.4s forwards;
+  }
+
+  @keyframes search-form-slide {
+    0% {
+      transform: translateX(100px);
+      animation-timing-function: cubic-bezier(0.12, 0.87, 0.15, 1);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  .search-result-slide {
+    animation: search-result-slide .5s forwards;
+  }
+
+
+  @keyframes search-result-slide {
+    0% {
+      transform: translateX(100px);
+      animation-timing-function: ease-in-out;
+    }
+
+    100% {
+      transform: translateX(0);
+
+    }
+  }
+
+  .search-results-list li:nth-child(1) {
+    animation-delay: .22s;
+    animation-fill-mode: backwards;
+   }
+
+   .search-results-list li:nth-child(2) {
+     animation-delay: .24s;
+    animation-fill-mode: backwards;
+  }
+
+  .search-results-list li:nth-child(3) {
+    animation-delay: .26s;
+    animation-fill-mode: backwards;
+   }
+
+   .search-results-list li:nth-child(4) {
+    animation-delay: .28s;
+    animation-fill-mode: backwards;
+  }
+
+  .search-results-list li:nth-child(5) {
+    animation-delay: .3s;
+    animation-fill-mode: backwards;
+  }
+
+  .hide-content {
+    animation: hide-search .5s ;
+  }
+
+  @keyframes hide-search {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    100% {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+
+  .display-list {
+    animation: display-list .5s both;
+  }
+
+  @keyframes display-list {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+      transform: scale(0.7);
+    }
+
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+
+  .item-nav-desktop.display-list:nth-child(2) {
+    animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(3) {
+    animation-delay: .035s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(4) {
+    animation-delay: .07s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(5) {
+    animation-delay: .105s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(6) {
+    animation-delay: .14s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(7) {
+    animation-delay: .175s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(8) {
+    animation-delay: .21s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(9) {
+    animation-delay: .245s;
+    animation-fill-mode: both;
+  }
+
+  .item-nav-desktop.display-list:nth-child(10) {
+    animation-delay: .255s;
+    animation-fill-mode: both;
+  }
